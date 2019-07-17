@@ -6,7 +6,11 @@ var budgetController = (function(){
 
 // UI CONTROLLER
 var UIController = (function(){
-
+    return {
+      getInput: function() {
+        var type = document.querySelector('.add__type').nodeValue;
+      }
+    }
 })();
 
 
