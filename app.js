@@ -9,6 +9,8 @@ var UIController = (function(){
     return {
       getInput: function() {
         var type = document.querySelector('.add__type').nodeValue;
+        var description = document.querySelector('.add__description').nodeValue;
+        var value = document.querySelector('.add__value').value;
       }
     }
 })();
