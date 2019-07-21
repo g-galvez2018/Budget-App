@@ -8,7 +8,9 @@ var budgetController = (function(){
 var UIController = (function(){
 
     var DOMstrings = {
-      inputType: '.add__type'
+      inputType: '.add__type',
+      inputDescription: 'add__description',
+      inputValue: '.add__value'
     }
 
     return {
@@ -16,8 +18,10 @@ var UIController = (function(){
         var type = document.querySelector(DOMstrings.inputType).nodeValue;
         var description = document.querySelector('.add__description').nodeValue;
         var value = document.querySelector('.add__value').value;
-      }
+      }      
     }
+
+    
 })();
 
 
