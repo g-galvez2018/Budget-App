@@ -1,4 +1,4 @@
-//BUDGET CONTROLLER
+//BUDGET CONTROLLER -- Keeps track of all incomes and expenses
 var budgetController = (function(){
   
     var Expense = function (id, description, value) {
@@ -13,7 +13,32 @@ var budgetController = (function(){
       this.value = value;
     }
 
+    var data = {
+      allItems: {
+        exp: [],
+        inc: []
+      },
+      totals: {
+        exp: 0,
+        inc: 0
+      }
+    }
+
+    return {
+        addItem: function(type, des, val) {
+          var newItem, ID;
+
+          ID = 0;
+
+          if (type === 'exp'){
+              
+          }
+        }
+    }
+
 })();
+
+
 
 // UI CONTROLLER
 var UIController = (function(){
