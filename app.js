@@ -27,7 +27,7 @@ var budgetController = (function(){
     return {
         addItem: function(type, des, val) {
           var newItem, ID;
-
+          //How new item was created
           //[1 2 3 4 5], next ID = 6
           //[1 2 4 6 8], next ID = 9
           // ID = last ID + 1
