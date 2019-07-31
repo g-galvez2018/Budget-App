@@ -163,7 +163,7 @@ var controller = (function(budgetCtrl, UICtrl){
 
       if (input.description !=="") 
 
-      // 2. Add the item to the budget controller
+      // 2. Add the item to the budget 
       newItem = budgetCtrl.addItem(input.type, input.description, input.value);
 
       // 3. Add the item to the UI
