@@ -169,7 +169,7 @@ var controller = (function(budgetCtrl, UICtrl){
       // 3. Add the item to the UI
       UICtrl.addListItem(newItem, input.type);
 
-      // 4. Clear the Fields
+      // 4. Clear the Fields inputs
       UICtrl.clearFields();   
       
       // 5. Calculate and update Budget
