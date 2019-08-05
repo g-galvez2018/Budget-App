@@ -172,8 +172,8 @@ var controller = (function(budgetCtrl, UICtrl){
       // 4. Clear the Fields inputs
       UICtrl.clearFields();   
       
-      // 5. Calculate and update Budget Figures
-      
+      // 5. Calculate and update Budget Figure
+
       updateBudget();
       
   }
